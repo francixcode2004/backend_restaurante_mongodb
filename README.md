@@ -15,7 +15,7 @@ desarrollado con Node.js 20 y MongoDB. La aplicación permite gestionar meseros 
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/restaurante-backend.git
+   git clone https://github.com/francixcode2004/backend_restaurante_mongodb.git
    cd restaurante-backend
 ## Contacto
 Para cualquier pregunta o sugerencia, puedes contactarme en franciscoricardo293@gmail.com.
