@@ -17,6 +17,9 @@ const MenuSchema = new Schema({
     piezas: {
         type: Number,
         required: true
+    },
+    foto:{
+        type:String
     }
 }, {
     timestamps: true
