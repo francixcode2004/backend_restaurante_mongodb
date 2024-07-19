@@ -6,7 +6,7 @@ const app = require("./server");
 const cors=require("cors");
 app.use(cors()); //implementa cors para comunicarse con angular
 connectDB();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.use(express.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
