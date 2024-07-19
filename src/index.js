@@ -4,7 +4,7 @@ const express = require('express');
 const path = require('path');
 const app = require("./server");
 const cors=require("cors");
-app.use(cors()); //implementa cors para comunicarse con angular
+app.use(cors()); 
 connectDB();
 const PORT = 3000;
 

@@ -3,9 +3,7 @@ const fs = require('node:fs');
 const path = require('path');
 
 function saveImage(file) {
-    const uploadsDir = path.join(__dirname, '../../public/menu'); // Ruta completa a 'public/menu'
-
-    // Verificar si existe el directorio de uploads, si no, crearlo de manera recursiva
+    const uploadsDir = path.join(__dirname, '../../public/menu'); 
     if (!fs.existsSync(uploadsDir)) {
         fs.mkdirSync(uploadsDir, { recursive: true });
     }
