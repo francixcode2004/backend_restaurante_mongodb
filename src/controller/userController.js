@@ -10,8 +10,8 @@ exports.authenticate = (req, res, next) => {
       .status(401)
       .json({ error: "Token de autorización no proporcionado" });
   }
-  const token = authHeader.split(" ")[1];
-  jwt.verify(token, secretKey, (err, decoded) => {
+  const authToken = authHeader.split(" ")[1];
+  jwt.verify(authToken, secretKey, (err, decoded) => {
     if (err) {
       return res.status(401).json({ error: "Token inválido" });
     }

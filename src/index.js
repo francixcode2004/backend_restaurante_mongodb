@@ -16,5 +16,5 @@ app.use(require("./routes/menu.routes"));
 app.use(require("./routes/mesero.routes"));
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://3.147.75.62:${PORT}`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
